@@ -43,6 +43,6 @@ url (str): The URL where the document is located.
 The retrieved documents are in a htm file. All relevant information is consolidated into a DataFrame, which is then stored in a CSV file.
 
 ## Usage
-This code was created to improve productivity in research projects involving mergers and acquisitions.
+This code was created to improve productivity in  a personal research project on mergers and acquisitions.
 
 	
