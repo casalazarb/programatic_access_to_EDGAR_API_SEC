@@ -17,6 +17,7 @@ This function retrieves the Central Index Key (CIK) for a given company.
 Parameters:
 
 ticker (str): The ticker symbol of the company.
+
 tickers_json (str): A JSON file downloaded from the SEC EDGAR API that maps company tickers to their CIKs.
 
 Returns:
@@ -30,6 +31,7 @@ This function constructs the URL to access the desired SEC filing document.
 Parameters:
 
 cik (str): The CIK of the company.
+
 reporting_date (str): The reporting date of the filing (end of the quarter for 10-Q documents and end of the year for 10-K documents).
 Returns:
 
