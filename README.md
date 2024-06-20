@@ -11,6 +11,7 @@ requests library
 
 ## Functions
 **fetch_cik(ticker, tickers_json)**
+
 This function retrieves the Central Index Key (CIK) for a given company.
 
 Parameters:
@@ -23,6 +24,7 @@ Returns:
 cik (str): The CIK that uniquely identifies the company in the SEC EDGAR system.
 
 **get_document_url(cik, reporting_date)**
+
 This function constructs the URL to access the desired SEC filing document.
 
 Parameters:
