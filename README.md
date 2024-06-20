@@ -18,7 +18,7 @@ Parameters:
 
 ticker (str): The ticker symbol of the company.
 
-tickers_json (str): A JSON file downloaded from the SEC EDGAR API that maps company tickers to their CIKs.
+tickers_json (str): A JSON file downloaded from the SEC EDGAR API that maps company tickers to their CIKs. The code to download this file is included.
 
 Returns:
 
