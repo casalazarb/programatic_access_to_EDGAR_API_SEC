@@ -33,10 +33,12 @@ Parameters:
 cik (str): The CIK of the company.
 
 reporting_date (str): The reporting date of the filing (end of the quarter for 10-Q documents and end of the year for 10-K documents).
+
 Returns:
 
 url (str): The URL where the document is located.
-Output
+
+**Output**
 
 The retrieved documents are in a htm file. All relevant information is consolidated into a DataFrame, which is then stored in a CSV file.
 
